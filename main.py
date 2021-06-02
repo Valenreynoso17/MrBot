@@ -23,10 +23,10 @@ while True:
         keyboard.release('shift')
 
     # Pelea
-    if keyboard.is_pressed('z'):
-        for i in range(700,1001, 150):
-            for j in range(670, 791, 40):
-                click(i, j)
+    # if keyboard.is_pressed('z'):
+    #     for i in range(700,1001, 150):
+    #         for j in range(670, 791, 40):
+    #             click(i, j)
 
     # Minerales
     if keyboard.is_pressed('m'):
